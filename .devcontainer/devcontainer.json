@@ -5,9 +5,9 @@
         "OLLAMA_MODEL": "llama3.2:3b"
     },
     "hostRequirements": {
-       "cpus": 8,
+       "cpus": 4,
        "memory": "16gb",
-       "storage": "64gb"
+       "storage": "32gb"
     },
     "features": {
        "ghcr.io/devcontainers/features/docker-from-docker:1": {},
@@ -49,8 +49,7 @@
                  }
             },
             "extensions": [
-               "mathematic.vscode-pdf",
-               "vstirbu.vscode-mermaid-preview"
+               "mathematic.vscode-pdf"
             ]
         }
     },
